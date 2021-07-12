@@ -1,0 +1,69 @@
+
+ROM used: 2240 (27%)
+          2403 (29%) including unused fragments
+
+          4 Average locations per line
+          19 Average locations per statement
+
+RAM used: 44 (12%) at main() level
+          69 (19%) worst case
+
+Stack used: 4 worst case (out of 8 total available)
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  142    49  40  main.c
+   16     0   0  main.h
+  313     0   0  C:\Program Files (x86)\PICC\devices\16F877A.h
+  165    72  60  mod_lcd.c
+----- -----
+  636   121 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   1   1             @delay_ms1
+0      8   0   0             @const50
+0     39   2   1   260  1.9  lcd_envia_nibble
+0     33   1   3   176  2.7  lcd_envia_byte
+0     61   3   2   433  4.3  lcd_ini
+ Inline        4   186  5.5  lcd_pos_xy
+0     56   2   1   290  4.1  lcd_escreve
+1    355  16   3   699  2.8  MAIN
+0    117   5  13             @MULFF
+0     31   1   5             @FTOSD
+0     66   3  13             @DIV3232
+0    206   9  13             @PRINTF_L32D_9600_62_63FPFPF
+0     28   1   0             @const100
+0     31   1   4             @SFTOI
+0    202   9  13             @PRINTF_L32D_65FPFPF
+0    130   6   9             @PRINTF_LD_65
+0     53   2   0    86  1.9  transReferencia
+0     29   1   2             @ITOF
+0     81   4   2   117  2.0  disturbio
+0     53   2   0    86  1.9  temperatura
+0    253  11   8   348  5.4  controle
+0    321  14  16             @ADDFF
+0     63   3  10             @FLT
+
+Program metrics:
+    Functions               10
+    Statements              121
+    Comments                168
+    Volume (V)              4320
+    Difficilty (D)          31.1
+    Effort to implement (E) 134559
+    Time to implement (T)   2 hours, 5 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   10
+    Maintainability (MI)    102
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF  1881  163  
+00800-00FFF   355  1693  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

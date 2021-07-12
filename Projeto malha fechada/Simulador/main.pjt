@@ -1,0 +1,28 @@
+[PROJECT]
+Target=D:\Eduardo\Eduardo\Semestres\7 Semestre\Microcontroladores\Projetos\Projeto malha fechada\Simulador\main.hex
+Development_Mode=
+Processor_Text=PIC16F877A
+ToolSuite=CCS
+Processor=0x877A
+[D:\Eduardo\Eduardo\Semestres\7 Semestre\Microcontroladores\Projetos\Projeto malha fechada\Simulador\main]
+Type=4
+Path=
+FileList=
+BuildTool=
+OptionString=
+AdditionalOptionString=
+[mru-list]
+1=D:\Eduardo\Eduardo\Semestres\7 Semestre\Microcontroladores\Projetos\Projeto malha fechada\Simulador\main.c
+[Windows]
+0=0000 %S 0 0 796 451 3 0
+[Units]
+Link=0
+Count=1
+1=D:\Eduardo\Eduardo\Semestres\7 Semestre\Microcontroladores\Projetos\Projeto malha fechada\Simulador\main
+[Opened Files]
+1=D:\Eduardo\Eduardo\Semestres\7 Semestre\Microcontroladores\Projetos\Projeto malha fechada\Simulador\main.c
+2=D:\Eduardo\Eduardo\Semestres\7 Semestre\Microcontroladores\Projetos\Projeto malha fechada\Simulador\main.h
+3=D:\Eduardo\Eduardo\Semestres\7 Semestre\Microcontroladores\Projetos\Projeto malha fechada\Simulador\mod_lcd.c
+4=
+5=C:\Program Files (x86)\PICC\drivers\usb_desc_cdc.h
+6=
